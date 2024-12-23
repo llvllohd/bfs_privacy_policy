@@ -4,8 +4,8 @@
 
 ## Steps
 
-> Whenever you are adding a new component make sure to hide/show breadcrumb using [isMicroAppMode] getter which is in core store.
-	we have to hide breadcrumb while running an App as a SubApp and show it while running as a monolithic.
+<summary> Whenever you are adding a new component make sure to hide/show breadcrumb using [isMicroAppMode] getter which is in core store.
+	we have to hide breadcrumb while running an App as a SubApp and show it while running as a monolithic. <summary>
 
 > While calling an apis use [apiConfiguredService] which is an ApiServiceWrapper from `shared/msw-api-service` folder.
 	please donot use from spwc-api-service folder as it will be removed in the future.
