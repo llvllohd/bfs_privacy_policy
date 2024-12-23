@@ -2,7 +2,7 @@
 
 > Unified UI Template to help you set up the initial UUIF project quickly
 
-## Steps to follow
+## Note to developers
 
 1. Whenever you are adding a new component make sure to hide/show breadcrumb using **isMicroAppMode** getter which is in core store.
 	we have to hide breadcrumb while running an App as a SubApp and show it while running as a monolithic.
